@@ -5,7 +5,7 @@ from main import clf
 def test_accuracy():
 
     # Load test data
-    with open("data/test_data-95.pkl", "rb") as file:
+    with open("models/wine-95-fixed.pkl", "rb") as file:
         test_data = pickle.load(file)
 
     # Unpack the tuple
